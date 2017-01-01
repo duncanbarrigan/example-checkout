@@ -10,6 +10,5 @@ urlpatterns = [
     url(r'^checkout/one-off/$', views.checkout_one_off, name='checkout_one_off'),
     url(r'^checkout/payment/$', views.payment_page, name='payment_page'),
     url(r'^checkout/success/$', views.success_page, name='success_page'),
-    url(r'^direct-debit-guarantee/$', views.direct_debit_guarantee, name='dd_guarantee')
-    url(r'^api/hello/$', views.hello, name='hello'),
+    url(r'^direct-debit-guarantee/$', views.direct_debit_guarantee, name='dd_guarantee'),
 ]
