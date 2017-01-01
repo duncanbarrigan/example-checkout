@@ -17,6 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+	url(r'$', include('example_checkout.urls')),
     url(r'^example_checkout/', include('example_checkout.urls')),
     url(r'^admin/', admin.site.urls),
 ]
