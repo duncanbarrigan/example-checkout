@@ -1,0 +1,4 @@
+Django==1.10.2
+gocardless-pro==0.2.3
+requests==2.11.1
+ipython==5.1.0
